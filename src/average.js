@@ -25,4 +25,4 @@ var arr1 = [1,2,3,4,5,-999];
 
 console.log(average(arr1, 0, 10));
 
-module.export = average; 
+module.exports = average; 

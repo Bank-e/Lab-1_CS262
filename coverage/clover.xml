@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1740643121427" clover="3.2.0">
+  <project timestamp="1740643121427" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="9" methods="2" coveredmethods="2" elements="33" coveredelements="32" complexity="0" loc="21" ncloc="21" packages="1" files="2" classes="2"/>
+    <file name="average.js" path="C:\Users\User\Downloads\Jest_JS_UnitTest\src\average.js">
+      <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="7" type="stmt"/>
+      <line num="3" count="7" type="stmt"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="6" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="8" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="126" type="stmt"/>
+      <line num="10" count="126" type="cond" truecount="4" falsecount="0"/>
+      <line num="11" count="123" type="stmt"/>
+      <line num="12" count="123" type="stmt"/>
+      <line num="14" count="126" type="stmt"/>
+      <line num="16" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="22" count="7" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="C:\Users\User\Downloads\Jest_JS_UnitTest\src\sum.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

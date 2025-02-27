@@ -1,11 +1,12 @@
-const average = require('./average');  // Adjust the path if needed
+const average = require('../src/average');  // Adjust the path if needed
 
 describe('average function tests', () => {
 
-    it('should calculate the correct average for valid inputs', () => {
+    it('should calculate the correct average for valid inputs', () => {  //wrong
         const arr = [1, 2, 3, 4, 5, -999];
-        const result = average(arr, 0, 10);
-        expect(result.average).toBe(3);  // (1+2+3+4+5) / 5 = 3
+        expect(average(arr, 0, 10)).toEqual({  
+            total: { valid: 5, input: 5 }, average: 3 // (1+2+3+4+5) / 5 = 3
+        }); 
     });
 
     it('should return -999 if no valid values are within the range', () => {
