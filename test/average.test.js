@@ -10,21 +10,24 @@ describe('average function tests', () => {
     });
 
     it('should return -999 if no valid values are within the range', () => {
-        const arr = [11, 12, 13, -999];
-        const result = average(arr, 0, 10);
-        expect(result.average).toBe(-999);  // No values within range 0-10
+        const arr = [11, 12, 13, -999];  
+        expect(average(arr, 0, 10)).toEqual({  
+            total: { valid: 0, input: 3 }, average: -999 // No values within range 0-10
+        });
     });
 
     it('should handle empty arrays correctly', () => {
-        const arr = [-999];
-        const result = average(arr, 0, 10);
-        expect(result.average).toBe(-999);  // No valid values
+        const arr = [-999]; 
+        expect(average(arr, 0, 10)).toEqual({  
+            total: { valid: 0, input: 0 }, average: -999 // No valid values
+        });
     });
 
     it('should count valid inputs correctly', () => {
         const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -999];
-        const result = average(arr, 0, 10);
-        expect(result.total.valid).toBe(10);  // All numbers from 1 to 10 are valid
+        expect(average(arr, 0, 10)).toEqual({  
+            total: { valid: 10, input: 10 }, average: 5.5 // All numbers from 1 to 10 are valid
+        });
     });
 
     it('should stop processing if -999 is encountered before reaching 100 inputs', () => {
