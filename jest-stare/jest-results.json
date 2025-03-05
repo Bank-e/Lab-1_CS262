@@ -1,14 +1,14 @@
 {
-  "numFailedTestSuites": 1,
-  "numFailedTests": 1,
-  "numPassedTestSuites": 3,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 4,
   "numPassedTests": 15,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
   "numTotalTestSuites": 4,
-  "numTotalTests": 16,
+  "numTotalTests": 15,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,195 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1740643120898,
+  "startTime": 1741146548035,
   "success": false,
   "testResults": [
-    {
-      "leaks": false,
-      "numFailingTests": 1,
-      "numPassingTests": 5,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1740643121253,
-        "runtime": 309,
-        "slow": false,
-        "start": 1740643120944
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\test\\average.test.js",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "average function tests"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "average function tests should calculate the correct average for valid inputs",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should calculate the correct average for valid inputs"
-        },
-        {
-          "ancestorTitles": [
-            "average function tests"
-          ],
-          "duration": 0,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "average function tests should return -999 if no valid values are within the range",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should return -999 if no valid values are within the range"
-        },
-        {
-          "ancestorTitles": [
-            "average function tests"
-          ],
-          "duration": 0,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "average function tests should handle empty arrays correctly",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should handle empty arrays correctly"
-        },
-        {
-          "ancestorTitles": [
-            "average function tests"
-          ],
-          "duration": 0,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "average function tests should count valid inputs correctly",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should count valid inputs correctly"
-        },
-        {
-          "ancestorTitles": [
-            "average function tests"
-          ],
-          "duration": 1,
-          "failureDetails": [
-            {
-              "matcherResult": {
-                "actual": 3,
-                "expected": 4,
-                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m3\u001b[39m",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m3\u001b[39m\n    at Object.toBe (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\test\\average.test.js:33:36)\n    at Promise.then.completed (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
-          ],
-          "fullName": "average function tests should stop processing if -999 is encountered before reaching 100 inputs",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "retryReasons": [],
-          "status": "failed",
-          "title": "should stop processing if -999 is encountered before reaching 100 inputs"
-        },
-        {
-          "ancestorTitles": [
-            "average function tests"
-          ],
-          "duration": 0,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "average function tests should stop processing if 100 inputs are reached before -999",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should stop processing if 100 inputs are reached before -999"
-        }
-      ],
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1maverage function tests › should stop processing if -999 is encountered before reaching 100 inputs\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m4\u001b[39m\n    Received: \u001b[31m3\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 |\u001b[39m         \u001b[36mconst\u001b[39m arr \u001b[33m=\u001b[39m [\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m2\u001b[39m\u001b[33m,\u001b[39m \u001b[35m3\u001b[39m\u001b[33m,\u001b[39m \u001b[33m-\u001b[39m\u001b[35m999\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m\u001b[33m,\u001b[39m \u001b[35m5\u001b[39m\u001b[33m,\u001b[39m \u001b[35m6\u001b[39m]\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 32 |\u001b[39m         \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m average(arr\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m\u001b[33m,\u001b[39m \u001b[35m10\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 33 |\u001b[39m         expect(result\u001b[33m.\u001b[39mtotal\u001b[33m.\u001b[39minput)\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m  \u001b[90m// The loop stops at -999, so only 4 elements are processed\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 34 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 35 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 36 |\u001b[39m     it(\u001b[32m'should stop processing if 100 inputs are reached before -999'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/average.test.js\u001b[39m\u001b[0m\u001b[2m:33:36)\u001b[22m\u001b[2m\u001b[22m\n"
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1740643121306,
-        "runtime": 34,
-        "slow": false,
-        "start": 1740643121272
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\test\\beforeAfter.test.js",
-      "testResults": [
-        {
-          "ancestorTitles": [],
-          "duration": 3,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "retryReasons": [],
-          "status": "passed",
-          "title": ""
-        },
-        {
-          "ancestorTitles": [
-            "Scoped / Nested block"
-          ],
-          "duration": 4,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Scoped / Nested block",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "retryReasons": [],
-          "status": "passed",
-          "title": ""
-        }
-      ],
-      "failureMessage": null
-    },
     {
       "leaks": false,
       "numFailingTests": 0,
@@ -223,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1740643121353,
-        "runtime": 24,
+        "end": 1741146549435,
+        "runtime": 923,
         "slow": false,
-        "start": 1740643121329
+        "start": 1741146548512
       },
       "skipped": false,
       "snapshot": {
@@ -238,13 +52,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\test\\sum.test.js",
+      "testFilePath": "D:\\code\\Test Homework\\Lab-1_CS262\\test\\sum.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "sum function"
           ],
-          "duration": 0,
+          "duration": 17,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "sum function should add two positive numbers correctly",
@@ -259,7 +73,7 @@
           "ancestorTitles": [
             "sum function"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "sum function should add two negative numbers correctly",
@@ -274,7 +88,7 @@
           "ancestorTitles": [
             "sum function"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "sum function should add a positive and a negative number correctly",
@@ -296,10 +110,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1740643121392,
-        "runtime": 24,
+        "end": 1741146549526,
+        "runtime": 1018,
         "slow": false,
-        "start": 1740643121368
+        "start": 1741146548508
       },
       "skipped": false,
       "snapshot": {
@@ -311,13 +125,172 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\User\\Downloads\\Jest_JS_UnitTest\\test\\arrayMatchers.test.js",
+      "testFilePath": "D:\\code\\Test Homework\\Lab-1_CS262\\test\\average.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "average function tests"
+          ],
+          "duration": 13,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function tests should return average = 0 and total.valid = 0 for non-array input",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return average = 0 and total.valid = 0 for non-array input"
+        },
+        {
+          "ancestorTitles": [
+            "average function tests"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function tests should return average = -999 and total.valid = 0 if array contains only -999",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return average = -999 and total.valid = 0 if array contains only -999"
+        },
+        {
+          "ancestorTitles": [
+            "average function tests"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function tests should return average = -999 and total.valid = 0 if values are below min",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return average = -999 and total.valid = 0 if values are below min"
+        },
+        {
+          "ancestorTitles": [
+            "average function tests"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function tests should return average = -999 and total.valid = 0 if values are above max",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return average = -999 and total.valid = 0 if values are above max"
+        },
+        {
+          "ancestorTitles": [
+            "average function tests"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function tests should calculate the correct average for valid inputs within [min, max]",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should calculate the correct average for valid inputs within [min, max]"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1741146549581,
+        "runtime": 1042,
+        "slow": false,
+        "start": 1741146548539
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "D:\\code\\Test Homework\\Lab-1_CS262\\test\\beforeAfter.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "passed",
+          "title": ""
+        },
+        {
+          "ancestorTitles": [
+            "Scoped / Nested block"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Scoped / Nested block",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "passed",
+          "title": ""
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1741146549558,
+        "runtime": 995,
+        "slow": false,
+        "start": 1741146548563
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "D:\\code\\Test Homework\\Lab-1_CS262\\test\\arrayMatchers.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "Array Matcher Examples"
           ],
-          "duration": 1,
+          "duration": 15,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Array Matcher Examples should check that two arrays are equal",
@@ -332,7 +305,7 @@
           "ancestorTitles": [
             "Array Matcher Examples"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Array Matcher Examples should check that an array contains a specific element",
@@ -347,7 +320,7 @@
           "ancestorTitles": [
             "Array Matcher Examples"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Array Matcher Examples should check that the array has the correct length",
@@ -362,7 +335,7 @@
           "ancestorTitles": [
             "Array Matcher Examples"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Array Matcher Examples should check that an array contains a subset of elements",
@@ -377,7 +350,7 @@
           "ancestorTitles": [
             "Array Matcher Examples"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Array Matcher Examples should verify the type of each element in an array",
