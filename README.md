@@ -1,4 +1,4 @@
-# This lab assignment focuses on using Jest to perform unit tests.
+# This lab assignment focuses on using Jest to perform Automated unit tests.
 
 The overview of all tests is in tests-overview.pdf file.
 
