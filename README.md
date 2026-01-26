@@ -4,35 +4,65 @@ The overview of all tests is in tests-overview.pdf file.
 
 ---
 
-# 🧪 Jest Unit Testing Lab
+# 🧪 Lab: Automated Unit Testing with Jest
 
-## 📘 Overview
-This lab is an assignment to practice **Unit Testing** in a **Node.js** environment using **Jest**.  
-It demonstrates how to write, configure, and generate automated test reports — including coverage and detailed HTML reports.
+## 📘 ภาพรวมของโปรเจกต์ (Overview)
+โปรเจกต์นี้เป็นส่วนหนึ่งของ Lab เพื่อฝึกฝนการเขียน **Unit Testing** ในสภาพแวดล้อมของ **Node.js** โดยใช้ **Jest** ซึ่งเป็น Testing Framework ยอดนิยม 
 
+เป้าหมายคือการเรียนรู้วิธีการเขียน Test Cases การตั้งค่าคอนฟิกเพื่อตรวจสอบความถูกต้องของโค้ด (Validation) และการสร้างรายงานความครอบคลุมของโค้ด (Code Coverage) แบบอัตโนมัติ
 
 ---
 
-## ⚙️ Files Description
+## 📂 โครงสร้างและคำอธิบายไฟล์ (Files Description)
 
 ### 🧾 `average.test.js`
-This file contains all **unit test cases** written with **Jest**.  
-It tests the functionality of `average.js` with various input cases — including normal values, empty arrays, and invalid inputs.
+ไฟล์สำหรับเขียน **Unit Test Cases** ทั้งหมด โดยใช้ Syntax ของ Jest เพื่อทดสอบฟังก์ชันใน `average.js` ครอบคลุมสถานการณ์ต่างๆ เช่น:
+* **Normal Values:** การส่งตัวเลขชุดปกติเข้าไป
+* **Empty Arrays:** การจัดการเมื่อไม่มีข้อมูลในอาร์เรย์
+* **Invalid Inputs:** การป้องกันข้อผิดพลาดเมื่อรับข้อมูลที่ไม่ใช่ตัวเลข
+
+### 📦 `package.json`
+ไฟล์หลักที่ใช้กำหนดโครงสร้างโปรเจกต์และ Dependency ต่างๆ รวมถึงการตั้งค่า Jest
+
+| ส่วนสำคัญ (Section) | คำอธิบาย |
+|:--- |:--- |
+| **`scripts`** | คำสั่งลัดสำหรับรันการทดสอบและสร้างรายงาน |
+| **`devDependencies`** | เครื่องมือพัฒนา (Jest และ Jest Stare สำหรับทำ HTML Report) |
+| **`jest`** | การตั้งค่าให้เก็บข้อมูล Coverage และระบุตำแหน่งส่งออกรายงาน |
 
 ---
 
-### 📦 `package.json`
-Defines the project setup, dependencies, and Jest configuration.
+## 🚀 คำสั่งที่ใช้งาน (Main Scripts)
 
-**Key Sections:**
+เปิด Terminal ในโฟลเดอร์โปรเจกต์แล้วใช้คำสั่งดังนี้:
 
-| Section | Description |
-|----------|-------------|
-| `"scripts"` | Contains commands for running tests and generating reports. |
-| `"devDependencies"` | Includes Jest and Jest Stare for testing and reporting. |
-| `"jest"` | Configures Jest to collect coverage and generate HTML reports. |
+* **รันการทดสอบทั้งหมด:**
+    ```bash
+    npm test
+    ```
+* **รันการทดสอบพร้อมสร้างรายงาน Coverage (ภาษาไทย):**
+    ```bash
+    npm run coverage
+    ```
 
-**Main Scripts:**
+---
+
+## 📊 รายงานผลการทดสอบ (Testing Reports)
+
+เมื่อรันคำสั่ง `coverage` ระบบจะสร้างโฟลเดอร์สำหรับรายงานผล ซึ่งคุณสามารถตรวจสอบคุณภาพของโค้ดได้จากค่าเหล่านี้:
+
+1.  **Statements:** คำสั่งแต่ละบรรทัดในโค้ดถูกรันผ่านการทดสอบหรือไม่
+2.  **Branches:** เงื่อนไขตัดสินใจ (เช่น `if-else`) ถูกทดสอบครบทุกกรณีหรือไม่
+3.  **Functions:** ฟังก์ชันที่เขียนขึ้นมาถูกเรียกใช้งานครบทุกฟังก์ชันหรือไม่
+4.  **Lines:** ความครอบคลุมของบรรทัดโค้ดทั้งหมด
+
+> [!TIP]
+> รายงานรูปแบบ HTML จะถูกสร้างขึ้นอัตโนมัติ (ถ้ามีการตั้งค่า Jest Stare) เพื่อให้คุณดูผลการทดสอบผ่าน Browser ได้อย่างสวยงามและอ่านง่าย
+> ในงานนี้เป็นไฟล์ใน Lab-1_CS262-main/jest-stare/index.html
+
+---
+
+## 🛠 การติดตั้ง (Setup)
+เพื่อให้ Lab นี้ทำงานได้สมบูรณ์ อย่าลืมติดตั้ง Dependencies ก่อนเริ่มงาน:
 ```bash
-npm test        # Run all Jest tests
-npm run coverage # Run tests and generate coverage report
+npm install
